@@ -46,7 +46,7 @@ h1 {
 }
 .scream {
     justify-content: end;
-    width: 300px;
+    width: 900px;
     -webkit-animation: vibrate-1 0.3s linear infinite both;
 	        animation: vibrate-1 0.3s linear infinite both;
             -webkit-animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
