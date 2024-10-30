@@ -6,7 +6,6 @@ body {
     height: 100vh;
     width: 100vw;
     background: rgb(210,247,255);
-    background: linear-gradient(0deg, rgba(210,247,255,1) 0%, rgba(113,188,225,1) 100%);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -25,6 +24,16 @@ body {
 .morning {
     width: 100vw;  
     height: 100vh; 
+}
+
+.afternoon {
+  width: 100vw;  
+  height: 100vh; 
+}
+
+.night {
+  width: 100vw;  
+  height: 100vh; 
 }
 h1 {
     display: inline;
@@ -290,4 +299,10 @@ h1 {
   -webkit-animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3.5s both;
 	        animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3.5s both;
           margin: 0px;
+}
+
+.treesun {
+  top: 60px;
+  left: 36%;
+  position: relative;
 }
