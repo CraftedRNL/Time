@@ -2,6 +2,7 @@ const d = new Date();
 let hour = d.getHours();
 console.log(hour);
 hour = 12;
+hour = 12;
 if(hour < 12){
     document.getElementById("greeting").innerText = "GET UP YA BUM!";
     document.body.style.background = "linear-gradient(0deg, rgba(210,247,255,1) 0%, rgba(113,188,225,1) 100%)";
