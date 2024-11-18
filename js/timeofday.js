@@ -24,6 +24,8 @@ if(hour < 12){
     document.body.style.background = "linear-gradient(0deg, rgba(46,46,46,1) 0%, rgba(52,52,52,1) 10%, rgba(78,78,78,1) 20%, rgba(96,96,96,1) 30%, rgba(128,128,128,1) 40%, rgba(154,154,154,1) 50%, rgba(173,173,173,1) 60%, rgba(193,193,193,1) 70%, rgba(209,209,209,1) 80%, rgba(215,215,215,1) 90%, rgba(221,221,221,1) 100%)";
     document.getElementById("afternoon").style.display = "none";
     document.getElementById("morning").style.display = "none";
+    
     document.getElementById("night").style.display = "grid";
+
 }
 }
