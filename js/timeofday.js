@@ -1,13 +1,13 @@
 const d = new Date();
 let hour = d.getHours();
 // console.log(hour);
-// hour = 1;
+
 setHour(d.getHours())
 
 function setHour(newhours) {
     hour = newhours;
 console.log(hour)
-
+hour = 24;
 
 if(hour < 12){
     document.body.style.background = "linear-gradient(0deg, rgba(210,247,255,1) 0%, rgba(113,188,225,1) 100%)";

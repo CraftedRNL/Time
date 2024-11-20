@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="body">
     <div class="choose-time">
         <button class="btn btn-primary" onclick="setHour(5)">Mornin</button>
         <button class="btn btn-warning" onclick="setHour(12)">Afternoon</button>
@@ -23,7 +23,7 @@
         <div class="center">
             <div class="shake">
                 <img class="scream" id="image" src="img/SUN.png" alt="Morning">
-                <h1 class="amazo">GET UP YA BUM!</h1>
+                <h1 id="amazo" class="amazo">GET UP YA BUM!</h1>
             </div>
             <div class="swirl">
                 <img class="hill" src="img/house-on-the-hill-clipart-md.png" alt="">
@@ -32,7 +32,7 @@
     </div>
 
     <div id="afternoon" class="afternoon">
-
+      
         <img class="treesun" id="image" src="img/creepy.png" alt="Afternoon"> <!--This is so creepy lol-->
 
         <h1 class="light">[You should get to work no?]</h1>
@@ -51,6 +51,25 @@
     <div id="night" class="night">
 
         <img class="man" src="img/backofman.png" alt="">
+        <div id="list" class="test">
+            <ul>
+                <li>
+                    <div class="div">1</div>
+                </li>
+                <li>
+                    <div class="div">2</div>
+                </li>
+                <li>
+                    <div class="div">3</div>
+                </li>
+                <li>
+                    <div class="div">4</div>
+                </li>
+                <li>
+                    <div class="div">5</div>
+                </li>
+            </ul>
+        </div>
         <h2 class="dark">
           
             <div class="tilt-l in">Uhh,</div>
@@ -70,13 +89,15 @@
 
     </div>
 
-
+   
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        
     <script src="js/timeofday.js"></script>
+    <script src="js/JsDomTutorial.js"></script>
 </body>
 
 </html>

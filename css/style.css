@@ -625,3 +625,8 @@ height: 500px;
   z-index: 1000;
   
 }
+.test {
+  display: flex;
+  justify-content: center;
+  z-index: 10000;
+}
